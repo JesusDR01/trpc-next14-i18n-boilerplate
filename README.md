@@ -17,10 +17,10 @@ https://github.com/JesusDR01/trpc-next14-i18n-boilerplate/assets/15522791/d08b51
 If you want it dockerized:
 
 Build:
-`docker build -t ct3a-docker --build-arg  DATABASE_URL=mongodb+srv://<db-user>:<db-password>@<db-cluster>/<db-name> .`
+`docker build -t ct3a-docker --build-arg  .`
 
 Run:
-`docker run -p 3000:3000 -e DATABASE_URL=mongodb+srv://<db-user>:<db-password>@<db-cluster>/<db-name> ct3a-docker`
+`docker run -p 3000:3000 -e ct3a-docker`
 
 Check localhost:3000 
 

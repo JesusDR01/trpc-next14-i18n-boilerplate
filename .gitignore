@@ -40,3 +40,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+deploy.sh
+docker_functions.sh
+jenkins-k8s.sh
+kube_redeploy.sh
+k8s/
