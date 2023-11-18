@@ -2,11 +2,30 @@
 
 https://github.com/t3-oss/create-t3-app
 
+# DEMO INCLUDING PARTIAL-PRERRENDERING + TRANSLATIONS + TRPC + MONGODB
+
+# COMMANDS AVAILABLE:
+`pnpm install` => install your app
+`pnpm dev` => test your app
+`pnpm build:local` => build your app locally
+`pnpm start:local` => start your app locally
+
+If you want it dockerized:
+
+Build:
+`docker build -t ct3a-docker --build-arg  DATABASE_URL=mongodb+srv://<db-user>:<db-password>@<db-cluster>/<db-name> .`
+
+Run:
+`docker run -p 3000:3000 -e DATABASE_URL=mongodb+srv://<db-user>:<db-password>@<db-cluster>/<db-name> ct3a-docker`
+
+Check localhost:3000 
+
 # DEPLOY:
 
 docker build -t ct3a-docker --build-arg  DATABASE_URL=mongodb+srv://<db-user>:<db-password>@<db-cluster>/<db-name> .
 
 docker run -p 3000:3000 -e DATABASE_URL=mongodb+srv://<db-user>:<db-password>@<db-cluster>/<db-name> ct3a-docker
+
 
 
 # Create T3 App
