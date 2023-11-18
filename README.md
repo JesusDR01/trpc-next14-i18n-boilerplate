@@ -4,6 +4,10 @@ https://github.com/t3-oss/create-t3-app
 
 # DEMO INCLUDING PARTIAL-PRERRENDERING + TRANSLATIONS + TRPC + MONGODB
 
+https://github.com/JesusDR01/trpc-next14-i18n-boilerplate/assets/15522791/d08b5179-3560-4826-a990-80b9a3aef8af
+
+
+
 # COMMANDS AVAILABLE:
 `pnpm install` => install your app
 `pnpm dev` => test your app
